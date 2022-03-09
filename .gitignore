@@ -1,5 +1,10 @@
-*.spec
-/__pycache__/
-/build/
-/browser/
-/bin/
+*
+!*.exe
+!*.gitignore
+!*.py
+!Pipfile
+!Pipfile.lock
+!*.md
+!*.ini
+!/danbooru/
+!/URL/
