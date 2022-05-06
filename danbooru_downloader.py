@@ -45,7 +45,7 @@ def main():
         fp = rel2abs_path(os.path.join(img_dir, index), 'exe')
         if os.path.isfile(f'{fp}.jpg') or os.path.isfile(f'{fp}.png'):
             print('W: ファイルは既に存在しています')
-            return
+            continue
         save_img(src, fp)
         print(f'M: {img_dir} に保存しました')
 
